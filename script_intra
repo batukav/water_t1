@@ -1,9 +1,0 @@
-#!/bin/bash
-
-START=$(date +%s)
-vmd -python -e Relaxation_dipolar_intramolecular.py -dispdev none > Relaxation_dipolar_intramolecular.log
-END=$(date +%s)
-DIFF=$(( $END - $START ))
-echo temps: $DIFF
-
-
